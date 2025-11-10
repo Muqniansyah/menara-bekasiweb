@@ -12,94 +12,114 @@ Selain itu, transparansi data digital memudahkan pemerintah dan lembaga internas
 </script>
 
 <section class="manfaat-section">
-	<h2>{title}</h2>
-	<p>{@html content.replace(/\n/g, '<br/>')}</p>
+	<div class="container">
+		<h2
+			class="section-title"
+			style="background: linear-gradient(90deg, #111827, #ea580c);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;"
+		>
+			{title}
+		</h2>
+		<p class="section-content">{@html content.replace(/\n/g, '<br/>')}</p>
+	</div>
 </section>
 
 <style>
 	.manfaat-section {
+		position: relative;
+		padding: 100px 20px;
+		background: linear-gradient(135deg, #ffffff, #f5f7fa 60%);
+		overflow: hidden;
+		font-family: 'Elms Sans', sans-serif;
+	}
+
+	/* Pola dekoratif lembut di background */
+	.manfaat-section::before {
+		content: '';
+		position: absolute;
+		top: -100px;
+		right: -150px;
+		width: 400px;
+		height: 400px;
+		background: radial-gradient(circle, rgba(234, 88, 12, 0.12), transparent 70%);
+		filter: blur(60px);
+		z-index: 0;
+	}
+	.manfaat-section::after {
+		content: '';
+		position: absolute;
+		bottom: -120px;
+		left: -100px;
+		width: 350px;
+		height: 350px;
+		background: radial-gradient(circle, rgba(107, 114, 128, 0.1), transparent 70%);
+		filter: blur(70px);
+		z-index: 0;
+	}
+
+	.container {
+		position: relative;
 		max-width: 900px;
-		margin: 60px auto;
-		padding: 40px;
-		background: #eef7f4;
-		border-radius: 12px;
-		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-		border-left: 8px solid #27ae60; /* Bold left border for emphasis */
-		transform: translateY(0);
-		transition: transform 0.3s ease-in-out;
-	}
-
-	.manfaat-section:hover {
-		transform: translateY(-5px); /* Subtle hover effect */
-	}
-
-	h2 {
-		font-size: 28px;
-		margin-bottom: 20px;
-		font-weight: bold;
-		color: #2d6a4f;
+		margin: 0 auto;
 		text-align: center;
-		font-family: 'Poppins', sans-serif;
-		text-transform: uppercase;
+		z-index: 1;
 	}
 
-	p {
-		font-size: 18px;
-		color: #333;
-		line-height: 1.6;
-		font-family: 'Roboto', sans-serif;
+	.section-title {
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: #111827;
+		margin-bottom: 1.5rem;
+		animation: fadeInDown 1.2s ease forwards;
+		opacity: 0;
+	}
+
+	.section-content {
+		font-family: 'Inter', sans-serif;
+		color: #374151;
+		font-size: 1.05rem;
+		line-height: 1.8;
+		max-width: 780px;
+		margin: 0 auto;
 		text-align: justify;
+		animation: fadeInUp 1.3s ease forwards;
+		opacity: 0;
 	}
 
-	/* Bullet point style for "🔸" */
-	p::before {
-		content: '🔸 ';
-		font-size: 22px;
-		color: #f39c12;
-		margin-right: 8px;
+	/* Animasi masuk halus */
+	@keyframes fadeInUp {
+		from {
+			opacity: 0;
+			transform: translateY(30px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	@keyframes fadeInDown {
+		from {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 
-	.manfaat-section p:last-child {
-		margin-bottom: 0;
-	}
-
-	/* FUN ACCENT STYLES */
-	p {
-		background: linear-gradient(to right, #f9e79f, #f1c40f);
-		padding: 10px;
-		border-radius: 5px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		color: #555;
-		font-style: italic;
-		font-size: 17px;
-	}
-
-	/* RESPONSIVE STYLES */
+	/* Responsif */
 	@media (max-width: 768px) {
 		.manfaat-section {
-			padding: 25px;
+			padding: 70px 20px;
 		}
-
-		h2 {
-			font-size: 24px;
+		.section-title {
+			font-size: 1.8rem;
 		}
-
-		p {
-			font-size: 16px;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.manfaat-section {
-			padding: 15px;
-		}
-
-		h2 {
-			font-size: 20px;
-		}
-
-		p {
-			font-size: 14px;
+		.section-content {
+			font-size: 1rem;
+			text-align: left;
 		}
 	}
 </style>

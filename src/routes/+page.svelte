@@ -31,6 +31,7 @@
 			<a
 				href={'https://wa.me/?text=' + encodeURIComponent(currentUrl)}
 				target="_blank"
+				rel="noopener noreferrer"
 				aria-label="Share via WhatsApp"
 			>
 				<svg
@@ -49,6 +50,7 @@
 			<a
 				href={'https://www.facebook.com/sharer/sharer.php?u=' + currentUrl}
 				target="_blank"
+				rel="noopener noreferrer"
 				aria-label="Share via Facebook"
 			>
 				<svg
@@ -67,6 +69,7 @@
 			<a
 				href={'https://www.linkedin.com/sharing/share-offsite/?url=' + currentUrl}
 				target="_blank"
+				rel="noopener noreferrer"
 				aria-label="Share via LinkedIn"
 			>
 				<svg
@@ -106,7 +109,7 @@
 		preserveAspectRatio="none"
 	>
 		<path
-			fill="#fff"
+			fill="#f9fafb"
 			d="M0,224L60,208C120,192,240,160,360,138.7C480,117,600,107,720,112C840,117,960,139,1080,154.7C1200,171,1320,181,1380,186.7L1440,192V320H0Z"
 		></path>
 	</svg>

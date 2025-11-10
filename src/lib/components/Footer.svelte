@@ -1,141 +1,124 @@
-<script>
-	// Bisa ditambahkan jika perlu state atau data dinamis di footer
-</script>
-
 <footer class="footer">
-	<div class="footer-container">
-		<div class="footer-section">
-			<h3>PT Menara Bekasi</h3>
-			<p>
-				Inovasi teknologi dalam industri kayu ekspor untuk efisiensi, kualitas, dan keberlanjutan
-				produksi.
-			</p>
-		</div>
-
-		<div class="footer-section">
-			<h3>Kontak</h3>
-			<ul>
-				<li><a href="mailto:info@menarabekasi.com">info@menarabekasi.com</a></li>
-				<li><a href="tel:+628123456789">+62 812 3456 789</a></li>
-				<li><a href="https://wa.me/628123456789" target="_blank">WhatsApp</a></li>
-			</ul>
-		</div>
-
-		<div class="footer-section">
-			<h3>Ikuti Kami</h3>
-			<div class="social-icons">
-				<a href="https://facebook.com/menarabekasi" target="_blank" class="social-icon">🔵</a>
-				<a href="https://twitter.com/menarabekasi" target="_blank" class="social-icon">🐦</a>
-				<a href="https://linkedin.com/company/menarabekasi" target="_blank" class="social-icon"
-					>🔗</a
-				>
-			</div>
-		</div>
+	<!-- 🔹 Bagian Hero Footer -->
+	<div class="footer-cta">
+		<h2>
+			Mari gunakan <span>inovasi</span> untuk membuat <br />
+			industri kayu ekspor lebih <span>kuat dan berkelanjutan</span>
+		</h2>
 	</div>
 
-	<div class="footer-bottom">
-		<p>© 2025 PT Menara Bekasi. Semua hak cipta dilindungi.</p>
+	<!-- 🔹 Konten Footer -->
+	<div class="footer-content">
+		<div class="footer-section brand">
+			<h3>PT MENARA BEKASI.</h3>
+			<p>© 2025 PT Menara Bekasi. Semua hak cipta dilindungi.</p>
+		</div>
+
+		<div class="footer-section">
+			<h4>Hubungi Kami</h4>
+			<ul>
+				<li><a href="mailto:sales@menarabekasilestari.com">sales@menarabekasilestari.com</a></li>
+				<li>
+					<a href="https://wa.me/6285817298071" target="_blank" rel="noopener noreferrer"
+						>WhatsApp</a
+					>
+				</li>
+			</ul>
+		</div>
 	</div>
 </footer>
 
 <style>
 	.footer {
-		background-color: #2c3e50;
-		color: white;
-		padding: 40px 20px;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Elms Sans', sans-serif;
+		color: #f2f2f2;
 	}
 
-	.footer-container {
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		max-width: 1200px;
-		margin: auto;
+	/* 🔹 Bagian Hero CTA */
+	.footer-cta {
+		background: #111317;
+		text-align: center;
+		padding: 100px 20px 80px;
+		color: #fff;
 	}
 
-	.footer-section {
-		flex: 1;
-		min-width: 200px;
-		margin-bottom: 20px;
+	.footer-cta h2 {
+		font-size: 2.6rem;
+		font-weight: 700;
+		line-height: 1.3;
+		max-width: 900px;
+		margin: 0 auto;
+		color: #fff;
+	}
+
+	.footer-cta h2 span {
+		color: #9ca3af; /* abu halus seperti pada teks "and invincible" */
+		font-weight: 400;
+	}
+
+	/* 🔹 Bagian isi footer */
+	.footer-content {
+		background: #f6f7f8;
+		color: #111;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 40px;
+		padding: 60px 10%;
+		text-align: left;
 	}
 
 	.footer-section h3 {
-		font-size: 20px;
+		font-size: 1.4rem;
+		font-weight: 700;
 		margin-bottom: 10px;
-		color: #ecf0f1;
 	}
 
 	.footer-section p {
-		font-size: 14px;
-		color: #bdc3c7;
+		font-size: 0.9rem;
+		color: #555;
+		margin: 0;
+	}
+
+	.footer-section h4 {
+		font-size: 1rem;
+		font-weight: 600;
+		margin-bottom: 12px;
+		color: #333;
 	}
 
 	.footer-section ul {
 		list-style: none;
 		padding: 0;
+		margin: 0;
 	}
 
 	.footer-section li {
-		margin-bottom: 8px;
+		margin-bottom: 6px;
 	}
 
 	.footer-section a {
 		text-decoration: none;
-		color: #ecf0f1;
-		font-size: 14px;
+		color: #555;
+		font-size: 0.9rem;
+		transition: color 0.2s ease;
 	}
 
 	.footer-section a:hover {
-		color: #f39c12;
+		color: #000;
 	}
 
-	.social-icons {
-		display: flex;
-		gap: 10px;
+	.brand h3 {
+		letter-spacing: 1px;
 	}
 
-	.social-icon {
-		font-size: 20px;
-		color: #ecf0f1;
-		transition: color 0.3s;
-	}
-
-	.social-icon:hover {
-		color: #f39c12;
-	}
-
-	.footer-bottom {
-		text-align: center;
-		margin-top: 40px;
-		font-size: 14px;
-		color: #bdc3c7;
-	}
-
-	/* RESPONSIVE STYLES */
+	/* 🔹 Responsif */
 	@media (max-width: 768px) {
-		.footer-container {
-			flex-direction: column;
-			align-items: center;
+		.footer-cta h2 {
+			font-size: 1.8rem;
 		}
-
-		.footer-section {
-			margin-bottom: 20px;
-		}
-
-		.social-icons {
-			justify-content: center;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.footer-section h3 {
-			font-size: 18px;
-		}
-
-		.footer-section p,
-		.footer-section a {
-			font-size: 12px;
+		.footer-content {
+			padding: 40px 5%;
+			text-align: center;
 		}
 	}
 </style>

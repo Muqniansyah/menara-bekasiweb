@@ -1,0 +1,62 @@
+yang udah :
+1. setup awal dengan svelte dan css
+-manage : npm run dev
+
+2. cari keywoard untuk judul, meta description, h1 dan h2
+- judul : Menara Bekasi | Digitalisasi & Inovasi Teknologi Kayu Ekspor
+- h1 : Digitalisasi & Inovasi Teknologi Kayu Ekspor
+- h2 :
+#1: Peran Digitalisasi dalam Industri Kayu Ekspor
+#2: Teknologi Modern dalam Pengolahan Kayu Ekspor
+#3: Manfaat Inovasi Teknologi bagi Keberlanjutan Ekspor Kayu
+#4: Tantangan dan Peluang Transformasi Digital di Industri Kayu
+- meta description : 
+"Pelajari bagaimana digitalisasi dan inovasi teknologi membantu industri kayu ekspor meningkatkan efisiensi, kualitas produk, dan keberlanjutan. Temukan solusi modern untuk menghadapi tantangan ekspor kayu global."
+- deskripsi singkat :
+Digitalisasi kini menjadi bagian penting dalam perkembangan industri kayu ekspor. Dengan memanfaatkan teknologi modern, pelaku usaha dapat meningkatkan efisiensi produksi, menjaga kualitas kayu, serta memastikan proses ekspor berjalan lebih cepat dan terukur. Transformasi digital ini bukan hanya meningkatkan daya saing, tetapi juga mendukung keberlanjutan dan transparansi dalam rantai pasok kayu secara global.
+- tagline :
+#INOVASIKAYUEKSPOR
+
+
+
+
+
+
+
+
+3. buat web dan kompress gambar + alt gambar
+
+4. web responsif
+
+5. menambah rel="noopener noreferrer" untuk keamanan link
+
+6. cta
+https://wa.me/6285817298071
+https://menarabekasilestari.site/
+
+7. hosting web
+https://blogwebmenara.vercel.app/
+
+https://github.com/muqniansyah/blogwebmenara
+
+8. google analytics
+
+9. google search console
+
+10. membuat swiper atau carousel slide untuk backlink seo
+
+11. sharing button bar
+
+10. memasukkan keywoard json
+
+11. buat file sitemap.xml dan robots.txt
+
+12. uji url sudah aktif
+https://blogwebmenara.vercel.app/
+
+13. uji url sitemap sudah aktif
+https://blogwebmenara.vercel.app/sitemap.xml
+
+14. menambah headers keamanan
+
+15. lakukan minify file (belum)

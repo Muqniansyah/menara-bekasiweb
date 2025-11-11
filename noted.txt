@@ -28,12 +28,9 @@ https://wa.me/6285817298071
 https://menarabekasilestari.site/
 
 7. hosting web
-https://blogwebmenara.vercel.app/
+https://menara-bekasiweb.vercel.app/
 
 https://github.com/muqniansyah/menara-bekasiweb
-
-
-
 
 8. google analytics
 
@@ -48,10 +45,10 @@ https://github.com/muqniansyah/menara-bekasiweb
 11. buat file sitemap.xml dan robots.txt
 
 12. uji url sudah aktif
-https://blogwebmenara.vercel.app/
+https://menara-bekasiweb.vercel.app/
 
 13. uji url sitemap sudah aktif
-https://blogwebmenara.vercel.app/sitemap.xml
+https://menara-bekasiweb.vercel.app/sitemap.xml
 
 14. menambah headers keamanan
 

@@ -1,6 +1,4 @@
 <script>
-	import bg from '$lib/assets/pallet.jpg';
-
 	export let title;
 	export let content = `
 Kemajuan teknologi tidak hanya berdampak pada manajemen ekspor, tapi juga pada proses pengolahan kayu itu sendiri. Mesin CNC (Computer Numerical Control), AI-assisted grading, dan pengeringan otomatis berbasis sensor suhu & kelembaban menjadi contoh nyata penerapan inovasi yang meningkatkan kualitas produk.
@@ -14,7 +12,7 @@ Dengan pengolahan yang modern, industri kayu Indonesia mampu bersaing dari sisi 
 	};
 </script>
 
-<section class="parallax-section" style="background-image: url({bg});">
+<section class="parallax-section">
 	<div class="overlay"></div>
 	<div class="content-wrapper">
 		<h2 class="section-title">{title}</h2>
@@ -26,6 +24,7 @@ Dengan pengolahan yang modern, industri kayu Indonesia mampu bersaing dari sisi 
 <style>
 	.parallax-section {
 		position: relative;
+		background-image: url('/src/lib/assets/pallet.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;

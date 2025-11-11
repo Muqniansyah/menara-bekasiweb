@@ -10,7 +10,13 @@
 	<h2>FAQ - Pertanyaan Umum</h2>
 
 	<div class="faq-list">
-		<div class="faq-item" on:click={() => toggle(0)}>
+		<div
+			class="faq-item"
+			role="button"
+			tabindex="0"
+			on:click={() => toggle(0)}
+			on:keydown={(e) => e.key === 'Enter' && toggle(0)}
+		>
 			<div class="faq-question {active === 0 ? 'active' : ''}">
 				<span class="faq-icon">❓</span>
 				<p>Apa itu digitalisasi dalam industri kayu ekspor?</p>
@@ -23,7 +29,13 @@
 			{/if}
 		</div>
 
-		<div class="faq-item" on:click={() => toggle(1)}>
+		<div
+			class="faq-item"
+			role="button"
+			tabindex="0"
+			on:click={() => toggle(1)}
+			on:keydown={(e) => e.key === 'Enter' && toggle(1)}
+		>
 			<div class="faq-question {active === 1 ? 'active' : ''}">
 				<span class="faq-icon">❓</span>
 				<p>Bagaimana teknologi dapat meningkatkan kualitas kayu ekspor?</p>
@@ -37,7 +49,13 @@
 			{/if}
 		</div>
 
-		<div class="faq-item" on:click={() => toggle(2)}>
+		<div
+			class="faq-item"
+			role="button"
+			tabindex="0"
+			on:click={() => toggle(2)}
+			on:keydown={(e) => e.key === 'Enter' && toggle(2)}
+		>
 			<div class="faq-question {active === 2 ? 'active' : ''}">
 				<span class="faq-icon">❓</span>
 				<p>Apa manfaat teknologi untuk keberlanjutan ekspor kayu?</p>
@@ -51,7 +69,13 @@
 			{/if}
 		</div>
 
-		<div class="faq-item" on:click={() => toggle(3)}>
+		<div
+			class="faq-item"
+			role="button"
+			tabindex="0"
+			on:click={() => toggle(3)}
+			on:keydown={(e) => e.key === 'Enter' && toggle(3)}
+		>
 			<div class="faq-question {active === 3 ? 'active' : ''}">
 				<span class="faq-icon">❓</span>
 				<p>Apa tantangan utama dalam transformasi digital di industri kayu?</p>

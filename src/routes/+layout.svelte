@@ -13,9 +13,6 @@
 	<title>{siteTitle}</title>
 	<meta name="description" content={siteDescription} />
 
-	<!-- Google Site Verification -->
-	<meta name="google-site-verification" content="vmcHQ8G9ervQgGmZyGjt12V4MyZwzSjyipkAnykNCIM" />
-
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JW2L7BG3G"></script>
 	<script>

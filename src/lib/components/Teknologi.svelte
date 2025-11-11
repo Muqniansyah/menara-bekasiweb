@@ -1,5 +1,5 @@
 <script>
-	import bg from '../assets/pallet.jpg';
+	import bg from '$lib/assets/pallet.jpg';
 
 	export let title;
 	export let content = `

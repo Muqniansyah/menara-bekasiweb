@@ -24,7 +24,7 @@ Dengan pengolahan yang modern, industri kayu Indonesia mampu bersaing dari sisi 
 <style>
 	.parallax-section {
 		position: relative;
-		background-image: url('/src/lib/assets/pallet.jpg');
+		background-image: url('/pallet.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;

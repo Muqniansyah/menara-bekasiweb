@@ -1,7 +1,10 @@
 <script>
 	import bg from '$lib/assets/slider/kemas.png';
 	import bg2 from '$lib/assets/slider/menarabekasi.png';
-	import bg3 from '$lib/assets/slider/kemaskayu.png';
+	import bg3 from '$lib/assets/slider/web-1.jpg';
+	import bg4 from '$lib/assets/slider/web-11.jpg';
+	import bg5 from '$lib/assets/slider/web-4.jpg';
+	import bg6 from '$lib/assets/slider/web-8.jpeg';
 
 	import { onMount } from 'svelte';
 	import Swiper from 'swiper';
@@ -28,9 +31,27 @@
 		},
 		{
 			image: bg3,
-			title: 'Ekspor bisa ditolak hanya karena kemasan kayu tidak sesuai standar ISPM #15!',
-			desc: '“Pastikan kemasan kayu Anda sudah sesuai aturan internasional agar ekspor tidak bermasalah.”',
-			link: 'https://kemaskayuindonesia.my.id/'
+			title: 'Mengapa Penanganan Kayu Pallet Jadi Kunci Sukses Ekspor Barang',
+			desc: '“Pastikan pengiriman ekspor Anda aman dengan penanganan kayu pallet yang sesuai standar ISPM 15.”',
+			link: 'https://menarabekasi.netlify.app/'
+		},
+		{
+			image: bg4,
+			title: 'Mengenal Kayu Ramah Lingkungan dan Sertifikasi Hijau',
+			desc: '“Ketahui cara mendukung ekspor hijau melalui penggunaan kayu ramah lingkungan.”',
+			link: 'https://web-menarabks.vercel.app/'
+		},
+		{
+			image: bg5,
+			title: 'Perbedaan Kayu ISPM 15 dan Non ISPM 15 untuk Ekspor',
+			desc: '“Pahami perbedaan penting antara kayu bersertifikat dan non-sertifikat sebelum ekspor.”',
+			link: 'https://blogmenara.pages.dev/'
+		},
+		{
+			image: bg6,
+			title: 'Legalitas Ekspor Kayu: Panduan Lengkap Dokumen, Perizinan, dan Sertifikasi SVLK',
+			desc: '“Panduan lengkap tentang izin, sertifikat, dan dokumen ekspor kayu yang sah dan aman.”',
+			link: 'https://menaraweb.vercel.app/'
 		}
 	];
 
@@ -84,7 +105,7 @@
 	.swiper-container {
 		width: 100%;
 		height: 80vh;
-		max-width: 100vw;
+		/* max-width: 100vw; */
 		position: relative;
 	}
 

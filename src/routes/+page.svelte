@@ -6,7 +6,7 @@
 	const tagline = '#INOVASIKAYUEKSPOR';
 	const description =
 		'Inovasi teknologi dalam industri kayu ekspor untuk efisiensi, kualitas, dan keberlanjutan produksi.';
-	const currentUrl = 'https://blogbekasimenara.vercel.app/';
+	const currentUrl = 'https://menara-bekasiweb.vercel.app/';
 
 	// import file components
 	import Digitalisasi from '$lib/components/Digitalisasi.svelte';

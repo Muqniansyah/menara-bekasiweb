@@ -107,10 +107,11 @@
 		height: 80vh;
 		/* max-width: 100vw; */
 		position: relative;
+		overflow: hidden;
 	}
 
 	.swiper-slide {
-		position: relative;
+		/* position: relative; */
 		display: flex;
 		justify-content: center;
 		align-items: center;

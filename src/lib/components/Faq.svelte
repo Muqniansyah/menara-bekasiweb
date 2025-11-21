@@ -104,9 +104,10 @@
 		content: '';
 		position: absolute;
 		top: -100px;
-		right: -100px;
+		right: 40px;
 		width: 350px;
 		height: 350px;
+		/* background-color: blue; */
 		background: radial-gradient(circle, rgba(234, 88, 12, 0.15), transparent 70%);
 		filter: blur(50px);
 		z-index: 0;

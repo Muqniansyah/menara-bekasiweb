@@ -39,9 +39,10 @@ Selain itu, transparansi data digital memudahkan pemerintah dan lembaga internas
 		content: '';
 		position: absolute;
 		top: -100px;
-		right: -150px;
+		right: 40px;
 		width: 400px;
 		height: 400px;
+		/* background-color: blue; */
 		background: radial-gradient(circle, rgba(234, 88, 12, 0.12), transparent 70%);
 		filter: blur(60px);
 		z-index: 0;
@@ -50,9 +51,10 @@ Selain itu, transparansi data digital memudahkan pemerintah dan lembaga internas
 		content: '';
 		position: absolute;
 		bottom: -120px;
-		left: -100px;
+		left: 40px;
 		width: 350px;
 		height: 350px;
+		/* background-color: blue; */
 		background: radial-gradient(circle, rgba(107, 114, 128, 0.1), transparent 70%);
 		filter: blur(70px);
 		z-index: 0;
